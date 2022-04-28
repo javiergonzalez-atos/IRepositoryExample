@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolAPI", "src\SchoolAPI.csproj", "{B1A8FB8F-13F4-4FA4-BA20-7580703FAE37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalSchoolAPI", "ExternalSchoolAPI\ExternalSchoolAPI.csproj", "{B7F52976-ECC2-4427-A1C1-FFA5057C9E2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1A8FB8F-13F4-4FA4-BA20-7580703FAE37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A8FB8F-13F4-4FA4-BA20-7580703FAE37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A8FB8F-13F4-4FA4-BA20-7580703FAE37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A8FB8F-13F4-4FA4-BA20-7580703FAE37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7F52976-ECC2-4427-A1C1-FFA5057C9E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F52976-ECC2-4427-A1C1-FFA5057C9E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F52976-ECC2-4427-A1C1-FFA5057C9E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7F52976-ECC2-4427-A1C1-FFA5057C9E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
