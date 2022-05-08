@@ -19,8 +19,7 @@ namespace EFAndLinqPractice_SchoolAPI.IoC
         public static IServiceCollection AddExternalApiAsDataSource(this IServiceCollection services)
         {
             services.AddScoped<IStudentRepository, StudentExternalCallRepository>();
-            services.AddScoped<ExternalSchoolHttpClient>();
-            services.AddHttpClient();
+            services.AddHttpClient<ExternalSchoolHttpClient>();
         
             return services;
         }

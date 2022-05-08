@@ -26,9 +26,9 @@ namespace EFAndLinqPractice_SchoolAPI
             
             services.AddScoped<IStudentService, StudentService>();
 
-            services.AddSqlDatabaseAsDataSource(Configuration.GetConnectionString("SQLServer"));
+            // services.AddSqlDatabaseAsDataSource(Configuration.GetConnectionString("SQLServer"));
 
-            // services.AddExternalApiAsDataSource();
+            services.AddExternalApiAsDataSource();
 
             services.AddSwaggerGen(c =>
             {
